@@ -1,21 +1,20 @@
-# AutoDock Vina parameters
-
-Vina was run using a shared configuration file (`config.txt`) specifying the search space and sampling settings.
-
-## Receptor
-- `pdbqts/PmrB_receptor.pdbqt`
-
-## Ligands
-- `pdbqts/*_chainB.pdbqt`
-
 ## Search space and sampling
-Populate this section from `config.txt`:
-- centre (x, y, z):
-- box size (x, y, z):
-- exhaustiveness:
-- num_modes (if set):
-- energy_range (if set):
 
-## Output
-- Docked poses: `results/<ligand>_out.pdbqt`
-- Logs: `results/<ligand>.log`
+The docking search space was defined to encompass the full PmrB cytosolic domain:
+
+- Centre (Å):
+  - x = -31.14
+  - y = -0.60
+  - z = 22.68
+
+- Box size (Å):
+  - x = 70
+  - y = 30
+  - z = 50
+
+- Sampling:
+  - exhaustiveness = 16
+  - num_modes = 10
+  - energy_range = 4 kcal/mol
+
+These parameters were chosen to allow full exploration of the PmrB cytosolic region while maintaining feasible runtimes on the Glasgow HPC cluster.
