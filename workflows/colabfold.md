@@ -1,6 +1,19 @@
-ColabFold was run locally using LocalColabFold:
+## Structure prediction
 
-https://github.com/YoshitakaMo/localcolabfold
+**ColabFold**  
+Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M.  
+*ColabFold – Making protein folding accessible to all.*  
+Nature Methods (2022).  
+doi: 10.1038/s41592-022-01488-1  
 
-This is a local implementation of the ColabFold pipeline (Mirdita et al., 2022),
-which wraps AlphaFold2 for fast structure prediction on local GPUs.
+**AlphaFold**  
+Jumper J et al.  
+*Highly accurate protein structure prediction with AlphaFold.*  
+Nature (2021).  
+doi: 10.1038/s41586-021-03819-2  
+
+**AlphaFold-Multimer**  
+Evans R et al.  
+*Protein complex prediction with AlphaFold-Multimer.*  
+bioRxiv (2022).  
+doi: 10.1101/2021.10.04.463034v2
