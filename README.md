@@ -82,6 +82,34 @@ Exact command lines, configuration files, and software versions are provided in 
 
 ---
 
+---
+
+## Software and method citations
+
+If you use or reference this pipeline, please cite the underlying software tools as appropriate:
+
+- **ColabFold / AlphaFold (structure prediction)**
+  - Jumper, J. et al. Highly accurate protein structure prediction with AlphaFold. *Nature* (2021).
+  - Mirdita, M. et al. ColabFold: making protein folding accessible to all. *Nature Methods* (2022).
+
+- **AutoDock Vina (docking)**
+  - Trott, O. & Olson, A. J. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. *Journal of Computational Chemistry* (2010).
+
+- **GROMACS (molecular dynamics)**
+  - Abraham, M. J. et al. GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. *SoftwareX* (2015).
+
+- **CHARMM-GUI (membrane system construction)**
+  - Jo, S. et al. CHARMM-GUI: A web-based graphical user interface for CHARMM. *Journal of Computational Chemistry* (2008).
+  - Lee, J. et al. CHARMM-GUI Membrane Builder for mixed bilayers and its application to membrane proteins. *Biophysical Journal* (2016).
+
+This repository accompanies:
+
+- Duffy, D. (2026). *Computational modelling of de novo peptide interactions with the PmrB sensor kinase*. MSci Dissertation, University of Glasgow.
+
+
+
+---
+
 ## Citation
 
 If you use or reference this pipeline, please cite:
