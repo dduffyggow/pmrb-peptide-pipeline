@@ -65,6 +65,27 @@ If you use or reference this pipeline, please cite:
 
 > Duffy, D. (2026). *Computational modelling of de novo peptide interactions with the PmrB sensor kinase*. MSci Dissertation, University of Glasgow.
 
+
+---
+
+## Reproducibility and computational workflows
+
+This repository provides fully reproducible computational pipelines and example input systems for the docking and molecular dynamics analyses used in this dissertation.
+
+### Docking (AutoDock Vina)
+- Workflow: `workflows/docking_pipeline.md`
+- Parameters: `workflows/vina_parameters.md`
+- Example inputs: `example_inputs_pdbqt.tar.gz`
+
+### Molecular dynamics (CHARMM-GUI → GROMACS)
+- Workflow: `workflows/md_pipeline.md`
+- CHARMM-GUI membrane setup: `workflows/charmm_gui_notes.md`
+- Example systems:
+  - Peptide in water: `data/example_md/example_md_water_dcr1.tar.gz`
+  - PmrB in membrane: `data/example_md/example_md_membrane_small_bilayer.tar.gz`
+
+These archives allow the docking and MD workflows to be reproduced from raw structures using the same parameters applied in the MSci project.
+
 ---
 
 ## Contact
