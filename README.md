@@ -59,6 +59,10 @@ The pipeline consists of the following stages:
 
 ---
 
+For sequence generation, structure selection, and PDB→PDBQT preprocessing, see notebooks/README.md
+
+---
+
 ## Vina vs HADDOCK
 
 AutoDock Vina was implemented as an independent docking pipeline to benchmark against **HADDOCK** predictions.  
