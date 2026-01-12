@@ -6,6 +6,29 @@ The project investigates whether short, randomly generated peptides can bind to 
 
 ---
 
+## Pipeline documentation
+
+This repository is organised as a reproducible computational workflow:
+
+1. **Structure prediction**
+   - ColabFold was used to predict peptide and PmrB structures
+   - Highest-confidence models were selected by pLDDT
+
+2. **Docking (AutoDock Vina)**
+   - Workflow: `workflows/docking_pipeline.md`
+   - Parameters: `workflows/vina_parameters.md`
+
+3. **Molecular dynamics (CHARMM-GUI → GROMACS)**
+   - Workflow: `workflows/md_pipeline.md`
+   - Membrane system preparation: `workflows/charmm_gui_notes.md`
+
+4. **Example data**
+   - Docking inputs: `example_inputs_pdbqt.tar.gz`
+   - Peptide-in-water MD: `example_md_water_dcr1.tar.gz`
+   - Membrane MD: `example_md_membrane_small_bilayer.tar.gz`
+
+---
+
 ## Scientific Context
 
 De novo random peptides (DCRs) and adaptive random peptides (ARPs) have been shown experimentally to alter bacterial phenotypes, including antibiotic resistance, through poorly understood molecular mechanisms. This project tests the hypothesis that a subset of these peptides directly interact with the PmrB cytosolic domain, potentially altering signalling in the PmrA/B two-component system.
